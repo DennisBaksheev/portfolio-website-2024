@@ -62,6 +62,7 @@
   }
   
   .profileImage {
+    transform: rotate(90deg); /* Rotate the image 90 degrees clockwise */
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(109, 131, 242, 0.3);
   }
@@ -109,5 +110,6 @@
     .profileImage {
       width: 200px;
       height: 200px;
+      transform: rotate(90deg);
     }
   }
