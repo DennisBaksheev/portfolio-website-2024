@@ -6,9 +6,12 @@ This repository contains the source code for my personal portfolio website for t
 
 You can view the live version of my portfolio [here](https://dennisbaksheevportfolio.netlify.app/).
 
+
 ## Screenshot
 
 ![Portfolio Screenshot](https://i.ibb.co/2g1DRqR/Screenshot-2024-09-23-171834.png)
+
+
 
 ## Features
 
