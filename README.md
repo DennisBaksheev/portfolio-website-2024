@@ -1,17 +1,10 @@
 # Portfolio Website 2024
 
-This repository contains the source code for my personal portfolio website for the year 2024. The website showcases my projects, skills, and experience as a software engineer, highlighting my ability to build robust, user-friendly web applications.
+This repository contains the source code for my newest personal portfolio website. The website showcases my projects, skills, and experience as a software engineer, highlighting my ability to build robust, user-friendly web applications.
 
 ## Live Demo
 
 You can view the live version of my portfolio [here](https://dennisbaksheevportfolio.netlify.app/).
-
-
-## Screenshot
-
-![Portfolio Screenshot](https://i.ibb.co/2g1DRqR/Screenshot-2024-09-23-171834.png)
-
-
 
 ## Features
 
