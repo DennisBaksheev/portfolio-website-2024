@@ -1,0 +1,113 @@
+.aboutSection {
+    padding: 5rem 0;
+    background-color: #1b2735;
+    color: #f8f8f8;
+  }
+  
+  .aboutInner {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .aboutInner h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .aboutContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .aboutText {
+    flex: 1;
+    margin-right: 2rem;
+  }
+  
+  .aboutText h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: rgb(109, 131, 242);
+  }
+  
+  .aboutText p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .aboutText ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .aboutText li {
+    margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+  }
+  
+  .aboutText li::before {
+    content: '▹';
+    position: absolute;
+    left: 0;
+    color: rgb(109, 131, 242);
+  }
+  
+  .aboutImage {
+    flex: 0 0 300px;
+  }
+  
+  .profileImage {
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(109, 131, 242, 0.3);
+  }
+  
+  @media (max-width: 768px) {
+    .aboutContent {
+      flex-direction: column-reverse;
+    }
+  
+    .aboutImage {
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+  
+    .aboutText {
+      margin-right: 0;
+    }
+  
+    .aboutInner h1 {
+      font-size: 2.5rem;
+    }
+  
+    .aboutText h2 {
+      font-size: 1.3rem;
+    }
+  
+    .aboutText p, .aboutText li {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .aboutInner {
+      padding: 0 1rem;
+    }
+    .aboutInner h1 {
+      font-size: 2rem;
+    }
+    .aboutText h2 {
+      font-size: 1.2rem;
+    }
+    .aboutText p, .aboutText li {
+      font-size: 0.9rem;
+    }
+    .profileImage {
+      width: 200px;
+      height: 200px;
+    }
+  }

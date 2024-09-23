@@ -1,0 +1,140 @@
+.projects-section {
+  margin: 5em auto 5em;
+  padding: 50px 0;
+  max-width: 1000px;
+}
+
+.project-wrapper {
+  display: flex;
+  margin-bottom: 100px;
+  background-color: #1E2A3A;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+.project-wrapper:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px -20px rgba(2,12,27,0.7);
+}
+
+.project-wrapper:last-child {
+  margin-bottom: 0;
+}
+
+.project-content {
+  flex: 1;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-overline {
+  color: rgb(109, 131, 242);
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.project-title {
+  color: #e6f1ff;
+  font-size: 24px;
+  margin: 0 0 15px;
+}
+
+.project-title a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s ease-in-out;
+}
+
+.project-title a:hover {
+  color: rgb(109, 131, 242);
+}
+
+.project-description {
+  color: #a8b2d1;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  max-height: none;
+  overflow: visible;
+}
+
+.project-description .live-demo-link {
+  color: rgb(109, 131, 242);
+  transition: color 0.3s ease-in-out;
+}
+
+.project-description .live-demo-link:hover {
+  color: rgb(109, 131, 242);
+}
+
+.project-tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0;
+}
+
+.project-tech-list li {
+  margin-right: 12px;
+  margin-bottom: 5px;
+  color: #8892b0;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.project-links {
+  display: flex;
+  align-items: center;
+  margin-top: auto;
+}
+
+.project-links a {
+  padding: 8px;
+  color: #a8b2d1;
+  transition: color 0.3s ease-in-out;
+}
+
+.project-links a:hover {
+  color: rgb(109, 131, 242);
+}
+
+.project-image {
+  flex: 0 0 45%;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-image img {
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-wrapper:hover .project-image img {
+  transform: scale(1.05);
+}
+
+.project-wrapper:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+  .project-wrapper, .project-wrapper:nth-child(even) {
+    flex-direction: column;
+  }
+
+  .project-image {
+    height: 200px;
+  }
+}

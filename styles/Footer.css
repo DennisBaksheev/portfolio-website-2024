@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  padding: 1rem 0;
+  border-top: 1px solid #a8b2d1;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0;
+  font-family: 'Montserrat', 'sans-serif';
+  color: #a8b2d1;
+  font-weight: 700;
+  font-size: 14px;
+}
