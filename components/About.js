@@ -11,12 +11,12 @@ const About = () => {
         <div className={styles.aboutContent}>
           <div className={styles.aboutText}>
             <p>
-              Hello! I'm Dennis, a passionate software engineer with a knack for creating elegant solutions to complex problems. My journey in tech has been driven by curiosity and a desire to make a positive impact through code.
+              Hello! I&apos;m Dennis, a passionate software engineer with a knack for creating elegant solutions to complex problems. My journey in tech has been driven by curiosity and a desire to make a positive impact through code.
             </p>
             <p>
-              What excites me most about software development is the constant opportunity to learn and grow. Every project is a new adventure, challenging me to think creatively and push the boundaries of what's possible.
+              What excites me most about software development is the constant opportunity to learn and grow. Every project is a new adventure, challenging me to think creatively and push the boundaries of what&apos;s possible.            
             </p>
-            <h2>What I Bring to a Team</h2>
+           <h2>What I Bring to a Team</h2>
             <ul>
               <li>Strong problem-solving skills and attention to detail</li>
               <li>Enthusiasm for collaborative work and knowledge sharing</li>
@@ -25,7 +25,7 @@ const About = () => {
             </ul>
             <h2>Beyond Coding</h2>
             <p>
-              When I'm not immersed in code, you can find me:
+              When I&apos;m not immersed in code, you can find me:
             </p>
             <ul>
               <li>Exploring nature trails and capturing landscapes through photography</li>
@@ -34,7 +34,7 @@ const About = () => {
               <li>Reading sci-fi novels and training in the gym</li>
             </ul>
             <p>
-              I'm always excited to connect with fellow tech enthusiasts and potential collaborators. Whether it's discussing the latest tech trends or exploring new project opportunities, I'm just an email away!
+              I&apos;m always excited to connect with fellow tech enthusiasts and potential collaborators. Whether it&apos;s discussing the latest tech trends or exploring new project opportunities, I&apos;m just an email away!
             </p>
           </div>
           <div className={styles.aboutImage}>
