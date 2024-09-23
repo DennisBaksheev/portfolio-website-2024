@@ -8,7 +8,7 @@ You can view the live version of my portfolio [here](https://dennisbaksheevportf
 
 ## Screenshot
 
-![Portfolio Screenshot](https://i.ibb.co/dGwdXBX/portfolio-screenshot.png)
+![Portfolio Screenshot](https://i.ibb.co/yRkKTSx/portfolio-screenshot.png)
 
 ## Features
 
