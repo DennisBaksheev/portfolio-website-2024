@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import { ParallaxProvider } from 'react-scroll-parallax';
 
 function MyApp({ Component, pageProps }) {
+  
   return (
     <>
       <Navbar />

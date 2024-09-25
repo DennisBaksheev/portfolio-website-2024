@@ -64,8 +64,8 @@ bold {
   left: 0;
   transform: translate(-50%, -50%);
   border-radius: 50%;
-  z-index: 9999;
-  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out, transform 0.1s ease-out;
 }
 
 .cursor-dot {
@@ -85,6 +85,14 @@ bold {
   height: 6px;
   background-color: rgba(109, 131, 242, 0.5);
   transition: width 0.3s, height 0.3s, opacity 0.3s;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .cursor-dot,
+  .cursor-dot-outline,
+  .cursor-trail {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {

@@ -1,21 +1,27 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 
 const CustomCursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
   const [visible, setVisible] = useState(false);
   const [trail, setTrail] = useState([]);
+  const [isTouch, setIsTouch] = useState(false);
+
+  const onMouseMove = useCallback((e) => {
+    setPosition({ x: e.clientX, y: e.clientY });
+    setTrail((prevTrail) => [
+      { x: e.clientX, y: e.clientY },
+      ...prevTrail.slice(0, 5),
+    ]);
+  }, []);
 
   useEffect(() => {
-    const onMouseMove = (e) => {
-      setPosition({ x: e.clientX, y: e.clientY });
-      setTrail((prevTrail) => [
-        { x: e.clientX, y: e.clientY },
-        ...prevTrail.slice(0, 5),
-      ]);
-    };
-
     const onMouseEnter = () => setVisible(true);
     const onMouseLeave = () => setVisible(false);
+
+    if ('ontouchstart' in window) {
+      setIsTouch(true);
+      return;
+    }
 
     document.addEventListener('mousemove', onMouseMove);
     document.addEventListener('mouseenter', onMouseEnter);
@@ -26,9 +32,9 @@ const CustomCursor = () => {
       document.removeEventListener('mouseenter', onMouseEnter);
       document.removeEventListener('mouseleave', onMouseLeave);
     };
-  }, []);
+  }, [onMouseMove]);
 
-  if (!visible) return null;
+  if (isTouch || !visible) return null;
 
   return (
     <>
