@@ -22,7 +22,7 @@ const projects = [
         description: `The <strong>Fitness Footwear E-commerce Website</strong> is a fully functional online storefront built on <strong>Shopify</strong>, tailored for athletic shoes. Developed using <strong>Shopify's Liquid</strong> template language, along with custom <strong>CSS</strong>, <strong>HTML</strong>, and <strong>JavaScript</strong>, the site provides an engaging and responsive shopping experience. It features dynamic <strong>product filtering and sorting</strong>, an intuitive <strong>shopping cart</strong>, and a <strong>secure checkout system</strong>.
           <p>
             <strong><a href="https://mvp-vault.myshopify.com/?_ab=0&_fd=0&_sc=1" target="_blank" rel="noopener noreferrer">Live Website Demo</a></strong><br>
-            <strong>Password:</strong> redkyrpton
+            <strong>Password:</strong> redkrypton
           </p>`,
         technologies: ["Shopify Liquid", "JavaScript", "CSS", "HTML", "Shopify AJAX API"],
         github: "https://github.com/DennisBaksheev/Fitness-Footwear-Shopify",
