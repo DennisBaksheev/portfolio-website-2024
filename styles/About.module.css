@@ -2,28 +2,28 @@
   padding: 5rem 0;
   background-color: #1b2735;
   color: #f8f8f8;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
 }
 
 .aboutInner {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 2rem;
+}
+
+.aboutInner h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
 .aboutContent {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .aboutText {
   width: 100%;
   max-width: 700px;
-  margin: 0 auto;
 }
 
 .aboutText h2 {
@@ -31,16 +31,30 @@
   margin-top: 2rem;
   margin-bottom: 1rem;
   color: rgb(109, 131, 242);
-  text-align: center;
 }
 
 .aboutText p {
   margin-bottom: 1rem;
   line-height: 1.6;
-  text-align: center;
 }
 
+.aboutText ul {
+  list-style-type: none;
+  padding-left: 0;
+}
 
+.aboutText li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.aboutText li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: rgb(109, 131, 242);
+}
 
 @media (max-width: 768px) {
   .aboutInner {
