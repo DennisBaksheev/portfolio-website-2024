@@ -39,7 +39,7 @@ const About = () => {
           </div>
           <div className={styles.aboutImage}>
             <Image
-              src="/about.JPG" 
+              src="/newabout.JPG" 
               alt="Dennis Baksheev"
               width={300}
               height={300}

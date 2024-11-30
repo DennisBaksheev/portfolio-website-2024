@@ -13,7 +13,7 @@ const IAm = () => {
       <div className='CTAs'>
         <a 
           className='download-resume' 
-          href="/dennis_baksheev_resume_2024.pdf" 
+          href="/dennisbaksheev_resume_softwaredeveloper.pdf" 
           download="Dennis_Baksheev_Resume.pdf"
         >
           Download My Resume
