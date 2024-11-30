@@ -37,16 +37,6 @@ const About = () => {
               I&apos;m always excited to connect with fellow tech enthusiasts and potential collaborators. Whether it&apos;s discussing the latest tech trends or exploring new project opportunities, I&apos;m just an email away!
             </p>
           </div>
-          <div className={styles.aboutImage}>
-            <Image
-              src="/newabout.JPG" 
-              alt="Dennis Baksheev"
-              width={300}
-              height={300}
-              objectFit="cover"
-              className={styles.profileImage}
-            />
-          </div>
         </div>
       </div>
     </section>
